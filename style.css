@@ -1,0 +1,137 @@
+/* Style sheet for
+Site: diegoapv.com 
+Author: Diego Olvera-Vega 
+Date: 2017-2-27 */
+
+/* artist name link */
+#ARTIST_NAME{
+	width:200px;
+	height: 50px;
+	padding:0px 0px;
+	position: fixed;
+	bottom: 20px;
+	left:20px;
+	margin: 0px;
+
+	outline: none;
+	color: rgb(120, 120, 120);
+	text-align: left;
+	font-family: "helvetica";
+	font-weight: bold;
+	font-size: 15pt;
+	z-index:1;
+}
+/* background element (html for now) behind all other elements*/
+#back{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right:0px;
+	bottom:0px;
+	padding:0px 0px 0px 0px;
+	margin: 0px;
+	border: 0px;
+	text-align:left;
+}
+/* menu containing list of groups of artworks */
+#menu{
+	margin: 10px;
+	position: fixed;
+	width:200px;
+	bottom: 70px;
+	left: 20px;
+
+	color: rgb(150, 150, 150);
+	font-family: "helvetica";
+	font-size: 10pt;
+	font-weight: bold;
+	
+	cursor: pointer;
+}
+/* element containing about info */
+#about{
+	position: absolute;
+	top:50px;
+	left:100px;
+
+	padding:50px;
+}
+/* accordion containing groups of artworks */
+#Artwork_Accordion h2{
+	outline:none;
+}
+/* element containing galleria jquery*/
+#galleria{
+	height:535px;
+	width:730px;
+	position: relative;
+	top:0%;
+	left:5%;
+}
+/* galleria jquery formatting */
+.galleria-theme-classic {
+overflow: visible;
+}
+.galleria-theme-classic .galleria-info-description {
+    color: rgb(150, 150, 150);
+    font-family: "helvetica";
+    font-size:12px;
+}
+#caption_container{
+	color: rgb(150, 150, 150);
+	font-family: "helvetica";
+	font-size: 10pt;
+	position:absolute;
+	padding-top:5px;
+	left:110px;
+	right:100px;
+}
+#caption{
+	cursor: pointer;
+	text-align:center;
+}
+#caption_text{
+	display:none;
+}
+/* Content containing Images, Captions, and Text */
+#content{
+	position: absolute;
+	margin: 5px;
+	left: 220px;
+	width: 800px;
+	top: 20px;
+
+	color: rgb(150, 150, 150);
+	font-family: "helvetica";
+	font-size: 10pt;
+	z-index:6;
+
+	display:none;
+}
+/* Table containing Group Exhibits */
+#content table{
+	color: rgb(150, 150, 150);
+    font-family: "helvetica";
+    font-size: 10pt;
+    border-spacing: 2em 0em;
+}
+/* unvisited link */
+a:link {
+ 	color: inherit;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+ 	color: inherit;
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+	color: rgb(37, 72, 95);
+	text-decoration: none;
+}
+/* selected link */
+a:active {
+ 	color: inherit;
+    text-decoration: none;
+}

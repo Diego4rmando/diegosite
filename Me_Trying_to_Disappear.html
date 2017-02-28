@@ -1,0 +1,64 @@
+<!DOCTYPE html><!--Style sheet forSite: diegoapv.com Author: Diego Olvera-Vega Date: 2017-2-27 --><html id="back">
+<head><title>  Diego Armando Plascencia Vega </title><link href="style.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="./js/jquery.js"></script><script type="text/javascript" src="./js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script><!-- load Galleria --><script src="./js/galleria/galleria-1.4.7.js"></script></head>
+<body>
+<div id="ARTIST_NAME"><a href="Index.html">DIEGO ARMANDO PLASCENCIA VEGA</a></div>
+<div id="menu"><div id="Artwork_Accordion"><h2>Artwork</h2><div>
+<p>
+<a href="Construct.html#Construct">
+Construct
+</a></p>
+<p>
+<a href="Boundaries.html#Boundaries">
+Boundaries
+</a></p>
+<p>
+<a href="Still_Words.html#Still Words">
+Still Words
+</a></p>
+<p>
+<a href="Discrete_Nature.html#Discrete Nature">
+Discrete Nature
+</a></p>
+<p>
+<a href="Me_Trying_to_Disappear.html#Me Trying to Disappear">
+Me Trying to Disappear
+</a></p>
+<p>
+<a href="Miscelaneous_Photography.html#Miscelaneous Photography">
+Miscelaneous Photography
+</a></p>
+</div></div><h2><a href="About.html">About</a></h2></div>
+<div id="content">        <div id="galleria">
+            <a href="Artwork/Me_Trying_to_Disappear/Diego4rma_gmail_MTTD_2.jpg">
+                <img 
+                    src="Artwork/Me_Trying_to_Disappear/Diego4rma_gmail_MTTD_2_thumb.jpg",
+                    data-big="Artwork/Me_Trying_to_Disappear/Diego4rma_gmail_MTTD_2_thumb.jpg"
+                    data-title="Me Trying to Dissapear 2: Still"
+                    data-description="2013 / 20x24 in / video /"
+src = "Me Trying to Dissapear 2: Still Diego Armando Plascencia 2013"
+                >
+</a>
+            <a href="Artwork/Me_Trying_to_Disappear/Diego4rma_gmail_MTTD_3.jpg">
+                <img 
+                    src="Artwork/Me_Trying_to_Disappear/Diego4rma_gmail_MTTD_3_thumb.jpg",
+                    data-big="Artwork/Me_Trying_to_Disappear/Diego4rma_gmail_MTTD_3_thumb.jpg"
+                    data-title="Me Trying to Dissapear 3: + -"
+                    data-description="2013 / 20x24 in / video installation /"
+src = "Me Trying to Dissapear 3: + - Diego Armando Plascencia 2013"
+                >
+</a>
+            <a href="Artwork/Me_Trying_to_Disappear/Diego4rma_gmail_MTTD_4.jpg">
+                <img 
+                    src="Artwork/Me_Trying_to_Disappear/Diego4rma_gmail_MTTD_4_thumb.jpg",
+                    data-big="Artwork/Me_Trying_to_Disappear/Diego4rma_gmail_MTTD_4_thumb.jpg"
+                    data-title="Me Trying to Dissapear 4: Getting Between the Frames"
+                    data-description="2013 / 20x24 in / video /"
+src = "Me Trying to Dissapear 4: Getting Between the Frames Diego Armando Plascencia 2013"
+                >
+</a>
+</div>
+    </div>
+
+</body>
+<!--_________________________________script_____________________________________________-->    <script>    $(function() {        // Load the classic theme        Galleria.loadTheme('./js/galleria/themes/classic/galleria.classic.min.js');        // Initialize Galleria        Galleria.run('#galleria',{_toggleInfo:false, imageCrop:'landscape',showCounter:false, showImagenav:false, transition:'pulse',transitionSpeed:1000, carouselSteps:4,carouselSpeed: 800, imageCrop:'height' });        Galleria.ready(function() {            this.attachKeyboard({            right: this.next,            left: this.prev        });    });    });    </script><script type="text/javascript">$('#Artwork_Accordion').accordion({    collapsible: true,    active:0,});</script><script>$(document).ready(function(){    $('#content').fadeIn(2200);})</script><script type="text/javascript">$( "#caption" ).click(function() {    var index = $('#galleria').data('galleria').getIndex();    var dat=$('#galleria').data('galleria').getData();    var div = document.getElementById('caption_text');    if ( $("#caption_text").css('display') == 'none' ){                $("#caption_text").fadeIn()    }    else{         $("#caption_text").fadeOut()           }});</script>
+</html>

@@ -92,6 +92,9 @@ overflow: visible;
 }
 #caption_text{
 	display:none;
+	color: rgb(150, 150, 150);
+	font-family: "helvetica";
+	font-size: 10pt;
 }
 /* Content containing Images, Captions, and Text */
 #content{

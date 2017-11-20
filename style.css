@@ -57,8 +57,18 @@ Date: 2017-2-27 */
 	padding:50px;
 }
 #portrait{
-	width:20px;
-	height:20px;
+
+	width:300px;
+	height:300px;
+}
+#about_me{
+	position:absolute;
+	top:150px;
+	left:375px;
+	width:400px;
+}
+#education_work{
+	width:600px;
 }
 /* accordion containing groups of artworks */
 #Artwork_Accordion h2{
@@ -144,4 +154,13 @@ a:active {
 }
 #file_link{
 	text-decoration: underline;
+}
+#index_image{
+
+	height:535px;
+	width:730px;
+	position: absolute;
+	top:40%;
+	left:5%;
+
 }
